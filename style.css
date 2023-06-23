@@ -273,6 +273,20 @@ h1 {
     background: #333;
     animation: pulse 1.3s infinite;
 }
+.btn-rond-left {
+    width: 70px;
+    height: 70px;
+    position: absolute left;
+    margin-left: 600px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #333;
+    background: #333;
+    animation: pulse 1.3s infinite;
+}
 @keyframes pulse {
     to {
         box-shadow: 0 0 0 8px rgba(255,255,255,0.01);
